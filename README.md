@@ -8,31 +8,45 @@ Este proyecto es una plataforma web desarrollada en Django para la gestión de p
 ## ⚙️ Instalación
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/usuario/nombre-del-proyecto.git
+   git clone https://github.com/Ronny-Morelo/Salud-Vida-Plus.git
+   ```
 
 2. Entrar a la carpeta del proyecto:
-   cd proyecto_final
+```bash
+    cd proyecto_final
+```
 
 3.Crear entorno virtual:
+```bash
   python -m venv venv
+```
 
 4. Activar entorno:
-   Windows:
-           venv\Scripts\activate
-   Linux/Mac:
-             source venv/bin/activate
+   - Windows:
+   ```bash
+   venv\Scripts\activate
+   ```
+   - Linux/Mac:
+   ```bash
+   source venv/bin/activate
+   ```
 
 5. Instalar dependencias:
+ ```bash
    pip install -r requirements.txt
+ ```
 
-6. Configurar variables de entorno (.env):
+7. Configurar variables de entorno (.env):
+ ```bash
    SECRET_KEY=tu_clave
    DB_NAME=nombre_db
    DB_USER=usuario
    DB_PASSWORD=contraseña
    DB_HOST=localhost
    DB_PORT=3306
+ ```
 
-7. ▶️ Ejecución
+8. ▶️ Ejecución
+    ```bash
    python manage.py runserver
-   
+ ```
